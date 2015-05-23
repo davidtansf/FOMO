@@ -9,7 +9,7 @@ body,
 
  #navlogo {
   float: left;
-  color: #fff;
+/*  color: #111;*/
 /*  margin-left: -775px;*/
   font-family: 'Exo', sans-serif;
   font-size: 30px;
@@ -48,7 +48,7 @@ a.selected-item {
 	z-index: 999;
 	margin-top: -20px; /* sets vertical position of menu bar when open, no whitespace across top */
   margin-left: -15px; /* resets menu bar to show across screen */
-  background-color: rgba(77,77,77, 0.96); /* menu bar color when open, with opacity */
+  background-color: rgba(255,255,255, 1); /* menu bar color when open, with opacity */
 	-webkit-transition: width 0.4s, height 0.4s, -webkit-transform 0.4s;
 	transition: width 0.4s, height 0.4s, transform 0.4s;
 	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -59,6 +59,12 @@ a.selected-item {
 	height: 100%;
 	overflow: hidden;
 	font-size: 0.75em;
+}
+
+#fomoTitle {
+  color: #4d4d4d !important;
+  font-color: white !important;
+  font-weight: 200;
 }
 
 .show-menu .menu-wrap {
